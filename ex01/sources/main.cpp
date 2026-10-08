@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/08 12:22:01 by julauren          #+#    #+#             */
-/*   Updated: 2026/10/08 13:41:31 by julauren         ###   ########.fr       */
+/*   Updated: 2026/10/08 14:17:54 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,5 +20,6 @@ int main(void)
 	bob.takeDamage(5);
 	bob.beRepaired(2);
 	bob.guardGate();
-	return 0;
+
+	return (0);
 }
