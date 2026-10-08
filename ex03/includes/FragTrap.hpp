@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/08 13:58:11 by julauren          #+#    #+#             */
-/*   Updated: 2026/10/08 14:16:09 by julauren         ###   ########.fr       */
+/*   Updated: 2026/10/08 16:05:20 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@
 #define B_CYAN "\033[96m"
 #define RESET "\033[39m"
 
-class FragTrap : public ClapTrap
+class FragTrap : public virtual ClapTrap
 {
 	public:
 		FragTrap(std::string name);

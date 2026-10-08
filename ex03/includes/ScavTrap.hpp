@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/08 12:45:09 by julauren          #+#    #+#             */
-/*   Updated: 2026/10/08 13:44:06 by julauren         ###   ########.fr       */
+/*   Updated: 2026/10/08 16:05:33 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
 #define B_YELLOW "\033[93m"
 #define RESET "\033[39m"
 
-class ScavTrap : public ClapTrap
+class ScavTrap : public virtual ClapTrap
 {
 	public:
 		ScavTrap(std::string name);
