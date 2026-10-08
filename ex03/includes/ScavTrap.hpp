@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/08 12:45:09 by julauren          #+#    #+#             */
-/*   Updated: 2026/10/08 16:05:33 by julauren         ###   ########.fr       */
+/*   Updated: 2026/10/08 17:05:07 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,9 @@ class ScavTrap : public virtual ClapTrap
 		void attack(const std::string &target);
 
 		void guardGate(void);
+
+	protected:
+		int _energyPoints;
 };
 
 #endif
