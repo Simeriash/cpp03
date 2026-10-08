@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/08 11:24:19 by julauren          #+#    #+#             */
-/*   Updated: 2026/10/08 12:41:04 by julauren         ###   ########.fr       */
+/*   Updated: 2026/10/08 13:39:13 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 
 ClapTrap::ClapTrap(std::string name) : _name(name), _hitPoints(10), _energyPoints(10), _attackDamage(0)
 {
-	std::cout << GREEN << _name << " was created." RESET << std::endl;
+	std::cout << GREEN "ClapTrap " << _name << " was created." RESET << std::endl;
 	return;
 }
 
@@ -24,13 +24,13 @@ ClapTrap::ClapTrap(ClapTrap const &cpy)
 {
 	*this = cpy;
 
-	std::cout << GREEN << cpy._name << " was copied." RESET << std::endl;
+	std::cout << GREEN "ClapTrap " << cpy._name << " was copied." RESET << std::endl;
 	return;
 }
 
 ClapTrap::~ClapTrap(void)
 {
-	std::cout << RED << _name << " was destructed." RESET << std::endl;
+	std::cout << RED "ClapTrap " << _name << " was destructed." RESET << std::endl;
 	return;
 }
 
