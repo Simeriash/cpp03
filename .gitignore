@@ -1,2 +1,4 @@
+/objects
 *.o
 claptrap
+trap
