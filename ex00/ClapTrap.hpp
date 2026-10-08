@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/08 11:10:37 by julauren          #+#    #+#             */
-/*   Updated: 2026/10/08 11:27:21 by julauren         ###   ########.fr       */
+/*   Updated: 2026/10/08 12:03:00 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,10 @@
 #define CLAPTRAP_HPP
 
 #include <string>
+
+#define GREEN "\033[32m"
+#define RED "\033[31m"
+#define RESET "\033[39m"
 
 class ClapTrap
 {
