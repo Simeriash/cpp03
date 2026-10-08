@@ -5,7 +5,7 @@ CFLAGS := -Wall -Wextra -Werror -std=c++98
 
 HEADER := includes/
 
-SOURCES := main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp
+SOURCES := main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp DiamondTrap.cpp
 
 SRC_DIR := sources/
 SRC := $(addprefix $(SRC_DIR), $(SOURCES))
