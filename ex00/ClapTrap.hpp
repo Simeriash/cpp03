@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/08 11:10:37 by julauren          #+#    #+#             */
-/*   Updated: 2026/10/08 12:03:00 by julauren         ###   ########.fr       */
+/*   Updated: 2026/10/08 12:29:15 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,9 @@
 
 #define GREEN "\033[32m"
 #define RED "\033[31m"
+#define B_CYAN "\033[96m"
+#define B_MAGENTA "\033[95m"
+#define B_YELLOW "\033[93m"
 #define RESET "\033[39m"
 
 class ClapTrap
