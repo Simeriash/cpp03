@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/08 15:56:09 by julauren          #+#    #+#             */
-/*   Updated: 2026/10/08 17:03:02 by julauren         ###   ########.fr       */
+/*   Updated: 2026/10/09 12:53:12 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,9 @@
 
 DiamondTrap::DiamondTrap(std::string name) : ClapTrap(name + "_clap_name"), ScavTrap(name), FragTrap(name), _name(name)
 {
-	_hitPoints = FragTrap::_hitPoints;
-	_energyPoints = ScavTrap::_energyPoints;
-	_attackDamage = FragTrap::_attackDamage;
+	_hitPoints = 100;
+	_energyPoints = 50;
+	_attackDamage = 30;
 
 	std::cout << GREEN "DiamondTrap " << _name << " was created." RESET << std::endl;
 	std::cout << "hitpoint: " << _hitPoints << "	energypoint: " << _energyPoints << "	attackdamage: " << _attackDamage << std::endl;
@@ -29,6 +29,7 @@ DiamondTrap::DiamondTrap(std::string name) : ClapTrap(name + "_clap_name"), Scav
 DiamondTrap::DiamondTrap(DiamondTrap const &cpy) : ClapTrap(cpy), ScavTrap(cpy), FragTrap(cpy), _name(cpy._name)
 {
 	std::cout << GREEN "DiamondTrap " << _name << "  copy was created." RESET << std::endl;
+	std::cout << "hitpoint: " << _hitPoints << "	energypoint: " << _energyPoints << "	attackdamage: " << _attackDamage << std::endl;
 	return;
 }
 
